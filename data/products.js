@@ -96,14 +96,15 @@ const products = [
 
 
     },
+
     {
 
-        name: "Generic Casque Bluetooth à empreinte digitale Casque stéréo",
-        image: "/images/ecouteur.jpg",
-        description: "  Malgré leur taille miniature, ces écouteurs sont dotés d'un son massif, qui est l'un des meilleurs de leur catégorie.",
+        name: "Oraimo Watch Pro - Montre Intelligente OSW-16 - Garantie 365 Jours",
+        image: "/images/watch.jpg",
+        description: "Avec des couleurs vives et un toucher sensible, l'écran IPS de 1.69 est plus grand et plus clair vous permettant de contrôler la montre à tout moment et n'importe où plus facilement.",
         brand: " Generic",
         category: "Electronique",
-        price: 4200,
+        price: 37000,
         countInStock: 10,
         rating: 3,
         numReview: 3.5
