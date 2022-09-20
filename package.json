@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "MERN app",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server",
+    "server": "nodemon backend/server",
+    "client": "npm start --prefix Frontend/front-end-app",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "data:import": "node Backend/seeder",
+    "data:destroy": "node backend/seeder -d"
+  },
+  "author": "KHADIM NGOM",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "concurrently": "^7.3.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.1",
+    "nodemon": "^2.0.19"
+  }
+}
